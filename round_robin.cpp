@@ -52,11 +52,10 @@ void round_robin(){
     }
   }
   
-  for (int i=0; i<6; i++) {
+  for (int i = 0; i < 6; ++i) {
   	digitalWrite(pin[i], HIGH);
     delay(time_quantum);
     digitalWrite(pin[i], LOW);
     burst_time[i] = burst_time[i] - time_quantum;
   }
 }
-
