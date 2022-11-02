@@ -38,6 +38,6 @@ void shortest_job(){
   	digitalWrite(pin[count], HIGH);
     delay(time[count]);
     digitalWrite(pin[count], LOW);
-    count++;
+    ++count;
   } /* executes shortest job scheduling */
 }
