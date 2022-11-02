@@ -20,6 +20,6 @@ void first_in_first_out() {
   	digitalWrite(i, HIGH); /* LED ON */
     delay(time[count]); /* DELAY */
     digitalWrite(i, LOW); /* LED OFF */
-    count++;
+    ++count;
   }
 }
